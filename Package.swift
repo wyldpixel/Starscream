@@ -25,7 +25,7 @@ import PackageDescription
 let package = Package(
         name: "Starscream",
         products: [
-            .library(name: "Starscream", targets: ["Starscream"])
+            .library(name: "Starscream", type: .dynamic, targets: ["Starscream"])
         ],
         dependencies: [],
         targets: [
